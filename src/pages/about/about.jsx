@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css"
-//sdfsdf
+
 import about_s1 from "../../assets/about_img/aboutS1.png"
 import {Swiper, SwiperSlide} from "swiper/react";
 import { Navigation, Autoplay} from "swiper/modules";
