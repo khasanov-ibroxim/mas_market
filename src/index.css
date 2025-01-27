@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Matn tanlanmasligi */
+* {
+    user-select: none;
+}
+
+/* Rasmlarni ko'chirib bo'lmasligi */
+img {
+    pointer-events: none;
+}
+
+
+
+/* Fokuslanganida fon o'zgarishini o'chirish */
+button:focus, a:focus, div:focus, img:focus, *:focus {
+    outline: none;
+}
+
+/* Disable tap highlight on mobile */
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scrollbar-width: none; /* Firefox uchun */
+    -ms-overflow-style: none; /* Internet Explorer va Edge uchun */
+    user-select: none;
+}
+
+/* Disable any active/focused styling */
+*:active, *:focus {
+    outline: none;
+    /*background-color: transparent; !* Ensures no background color change *!*/
+}

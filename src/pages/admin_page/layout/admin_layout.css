@@ -1,0 +1,21 @@
+.admin_layout{
+    height: 100vh;
+}
+.layout_sider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.layout_sider a{
+    font-size: 20px;
+    color: white;
+}
+.layout_sider a:first-child{
+    border-bottom: 2px solid white;
+}
+
+.admin_layout_header{
+    filter: drop-shadow(5px 10px 5px  rgba(0,0,0,0.1));
+}

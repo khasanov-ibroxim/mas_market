@@ -1,0 +1,127 @@
+.admin-product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.admin-product label , .admin-product label{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.admin-produc input{
+    margin:  0 !important;
+}
+.category_product{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.category_product_item {
+    color: #000;
+    width: 50%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category_product_item:hover{
+    color: black;
+}
+.dropdown-menu{
+    background: #f9f9f9;
+    color: black;
+}
+.dropdown-menu a{
+    color: black;
+}
+.product_content_name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    padding: 20px 0;
+}
+
+.product_content_price{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*margin-top: 40px;*/
+    border-bottom: 1px solid #d9d9d9;
+
+    padding: 20px 0;
+}
+.product_price_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.product_price_item label{
+    margin-bottom: 0;
+}
+.product_input {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.dropdown-menu a {
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.product_content_info{
+    width: 100%;
+
+    margin-top: 20px;
+}
+.product_content_info .product_content_info_item{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.product_content_properties{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.properties{
+    width: 45%;
+}
+.properties input{
+    width: 100%;
+}
+
+.product_photo_content{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.product_btn{
+    width: 100%;
+    height: 60px;
+}
