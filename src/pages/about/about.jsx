@@ -1,7 +1,6 @@
 import React from 'react';
 import "./about.css"
-//sadasd
-import about_s1 from "../../assets/about_img/aboutS1.png"
+
 import {Swiper, SwiperSlide} from "swiper/react";
 import { Navigation, Autoplay} from "swiper/modules";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -39,7 +38,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="col-lg-6">
-                        <img src={about_s1} alt="" width={"100%"} height={"100%"}/>
+                        {/*<img src={about_s1} alt="" width={"100%"} height={"100%"}/>*/}
                     </div>
                 </div>
                 <div className="row about-s1_partners">
@@ -88,7 +87,7 @@ const About = () => {
             <div className="about-s2">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={about_s1} alt=""/>
+                        {/*<img src={about_s1} alt=""/>*/}
                     </div>
                     <div className="col-lg-6">
                         <h1><span className={'under_line'}>Наша команда</span></h1>
@@ -126,7 +125,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="col-lg-6">
-                        <img src={about_s1} alt=""/>
+                        {/*<img src={about_s1} alt=""/>*/}
                     </div>
                 </div>
             </div>
