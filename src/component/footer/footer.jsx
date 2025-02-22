@@ -1,6 +1,13 @@
 import React, {useEffect} from 'react';
 import "./footer.css"
 import mas from "../../assets/icons/masOq.png"
+import TelegramIcon from '@mui/icons-material/Telegram';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import {Link} from "react-router-dom";
+
+
 const Footer = () => {
     useEffect(() => {
         // Sahifa yuklanganida fokusni olib tashlaydi
@@ -15,8 +22,8 @@ const Footer = () => {
                             <div className="single-cta">
                                 <i className="fas fa-map-marker-alt"></i>
                                 <div className="cta-text">
-                                    <h4>Find us</h4>
-                                    <span>г. Ташкент, улица Жоме, дом 229</span>
+                                    <h4>Адрес</h4>
+                                    <span>Республика Узбекистан, город Ташкент, улица Джами, 229</span>
                                 </div>
                             </div>
                         </div>
@@ -24,8 +31,8 @@ const Footer = () => {
                             <div className="single-cta">
                                 <i className="fas fa-phone"></i>
                                 <div className="cta-text">
-                                    <h4>Call us</h4>
-                                    <span>9876543210 0</span>
+                                    <h4>номер телефона</h4>
+                                    <a href="tel:+998555001444">+998 55 500 14 44</a>
                                 </div>
                             </div>
                         </div>
@@ -33,8 +40,8 @@ const Footer = () => {
                             <div className="single-cta">
                                 <i className="far fa-envelope-open"></i>
                                 <div className="cta-text">
-                                    <h4>Mail us</h4>
-                                    <span>mail@info.com</span>
+                                    <h4>почта</h4>
+                                    <a href="#">office@masmarket.uz</a>
                                 </div>
                             </div>
                         </div>
@@ -48,33 +55,31 @@ const Footer = () => {
                                     <a href="#"><img src={mas} className="img-fluid" alt="logo"/></a>
                                 </div>
                                 <div className="footer-text">
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                        elit,Lorem ipsum dolor sit amet.</p>
+                                    <p> Мы всегда рады вас слышать и отвечать на ваши вопросы! Свяжитесь с нами любым удобным для
+                                        вас способом</p>
                                 </div>
-                                <div className="footer-social-icon">
-                                    <span>Follow us</span>
-                                    <a href="#"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                                    <a href="#"><i className="fab fa-twitter twitter-bg"></i></a>
-                                    <a href="#"><i className="fab fa-google-plus-g google-bg"></i></a>
-                                </div>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="footer-social-icon">
+                                <span>Социальные сети</span>
+                                <a href="#"><TelegramIcon/></a>
+                                <a href="#"><InstagramIcon/></a>
+                                <a href="#"><FacebookIcon/></a>
+                                <a href="#"><WhatsAppIcon/></a>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                             <div className="footer-widget">
                                 <div className="footer-widget-heading">
-                                    <h3>Useful Links</h3>
+                                    <h3>Меню</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">about</a></li>
-                                    <li><a href="#">services</a></li>
-                                    <li><a href="#">portfolio</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Expert Team</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Latest News</a></li>
+                                    <li><Link to="/">Главная</Link></li>
+                                    <li><Link to="/about">О компании</Link></li>
+                                    <li><Link to="/">Услуги</Link></li>
+                                    <li><Link to="/contact">Контакты</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -87,17 +92,16 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                             <div className="copyright-text">
-                                <p>Copyright &copy; 2024, All Right Reserved <a href="https://t.me/Khasanov_ibroxim">Khasanov_ibroxim</a></p>
+                                <p>Copyright &copy; 2024, All Right Reserved <a href="https://t.me/Khasanov_ibroxim">Masmarket.uz</a></p>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                             <div className="footer-menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><Link to="/">Главная</Link></li>
+                                    <li><Link to="/about">О компании</Link></li>
+                                    <li><Link to="/">Услуги</Link></li>
+                                    <li><Link to="/contact">Контакты</Link></li>
                                 </ul>
                             </div>
                         </div>

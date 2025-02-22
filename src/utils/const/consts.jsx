@@ -10,9 +10,11 @@ import Checkout from "../../pages/basket/checkout.jsx";
 import ChangeProduct from "../../pages/admin_page/change_product/change_product.jsx";
 import AdminEditProduct from "../../pages/admin_page/change_product/edit/admin_edit_product.jsx";
 import About from "../../pages/about/about.jsx";
+import Contact from "../../pages/contact_page/contact.jsx";
 
 export const HOME = "/"
 export const ABOUT = "/about"
+export const CONTACT = "/contact"
 export const CATEGORY_PAGE = "/category/:categoryId";
 export const CATEGORY_PAGE_SOLO = "/category";
 export const PRODUCT_PAGE = "/product/:productId"
@@ -57,6 +59,10 @@ export const Public_router = [
     {
         Path:ABOUT,
         Component: <About/>
+    },
+    {
+        Path:CONTACT,
+        Component: <Contact/>
     },
     {
         Path:LOGIN,

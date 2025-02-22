@@ -31,16 +31,16 @@ const Navbar = () => {
 
                 <div className={`nav_links ${isMenuOpen ? 'active' : ''}`}>
                     <div className="nav_item">
-                        <Link to="/">Home</Link>
+                        <Link to="/">Главная</Link>
                     </div>
                     <div className="nav_item">
-                        <Link to="/about">о компании</Link>
+                        <Link to="/about">О компании</Link>
                     </div>
                     <div className="nav_item">
-                        <Link to="/">услуги</Link>
+                        <Link to="/">Услуги</Link>
                     </div>
                     <div className="nav_item">
-                        <Link to="/">контакты</Link>
+                        <Link to="/contact">Контакты</Link>
                     </div>
 
                     <div className="nav_item">

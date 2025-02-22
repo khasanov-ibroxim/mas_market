@@ -30,9 +30,10 @@ footer:focus {
     font-weight: 600;
     margin-bottom: 2px;
 }
-.cta-text span {
+.cta-text a , .cta-text span {
     color: #fdfdfd;
     font-size: 15px;
+    text-decoration: none;
 }
 .footer-content {
     position: relative;
@@ -58,6 +59,9 @@ footer:focus {
     color: #fdfdfd;
     line-height: 28px;
 }
+.footer-social-icon{
+    margin-bottom: 20px;
+}
 .footer-social-icon span {
     color: #fff;
     display: block;
@@ -71,7 +75,7 @@ footer:focus {
     font-size: 16px;
     margin-right: 15px;
 }
-.footer-social-icon i {
+.footer-social-icon svg {
     height: 40px;
     width: 40px;
     text-align: center;
@@ -87,6 +91,10 @@ footer:focus {
 .google-bg{
     background: #DD4B39;
 }
+.footer-widget ul{
+    padding: 0;
+}
+
 .footer-widget-heading h3 {
     color: #fff;
     font-size: 20px;
@@ -151,7 +159,7 @@ footer:focus {
     color: #fdfdfd;
 }
 .copyright-text p a{
-    color: black;
+    color: white;
 }
 .footer-menu li {
     display: inline-block;
